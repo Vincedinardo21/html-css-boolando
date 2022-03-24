@@ -1,10 +1,13 @@
 .product {
     display: inline-block;
+    position: relative;
 }
 
 /* Stili testi */
 .marca {
     color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 h3 {
@@ -20,4 +23,35 @@ h3 {
 .prezzo-orig {
     color: gray;
     text-decoration: line-through;
+}
+/* Fine stili testi */
+
+/* Grafica sconti e cuori */
+.label-discount {
+    background-color:crimson;
+    padding: 4px 4px;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.sostenibilita {
+    background-color:seagreen;
+    padding: 4px 4px;
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.cuore {
+    background-color: white;
+    padding: 10px 25px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    font-size: 50px;
 }
