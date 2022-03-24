@@ -1,3 +1,5 @@
+
+
 .product {
     display: inline-block;
     position: relative;
@@ -7,12 +9,24 @@
     background-image: url("../img/1.webp");
     width: 640px;
     height: 900px;
-    position: absolute;
+    position: relative;
     top: 0;
 }
 
 .image-prod:hover {
     background-image: url("../img/1b.webp");
+}
+
+.image-prod2 {
+    background-image: url("../img/2.webp");
+    width: 640px;
+    height: 900px;
+    position: relative;
+    top: 0;
+}
+
+.image-prod2:hover {
+    background-image: url("../img/2b.webp");
 }
 
 /* Stili testi */
