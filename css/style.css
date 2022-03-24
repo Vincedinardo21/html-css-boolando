@@ -3,6 +3,18 @@
     position: relative;
 }
 
+.image-prod {
+    background-image: url("../img/1.webp");
+    width: 640px;
+    height: 900px;
+    position: absolute;
+    top: 0;
+}
+
+.image-prod:hover {
+    background-image: url("../img/1b.webp");
+}
+
 /* Stili testi */
 .marca {
     color: grey;
@@ -31,7 +43,7 @@ h3 {
     background-color:crimson;
     padding: 4px 4px;
     position: absolute;
-    bottom: 100px;
+    bottom: 30px;
     left: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -41,7 +53,7 @@ h3 {
     background-color:seagreen;
     padding: 4px 4px;
     position: absolute;
-    bottom: 100px;
+    bottom: 30px;
     left: 50px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -55,3 +67,5 @@ h3 {
     right: 0;
     font-size: 50px;
 }
+/* Fine grafica */
+
