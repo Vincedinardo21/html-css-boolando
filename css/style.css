@@ -1,3 +1,23 @@
 .product {
     display: inline-block;
 }
+
+/* Stili testi */
+.marca {
+    color: grey;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.sconto {
+    color: red;
+}
+
+.prezzo-orig {
+    color: gray;
+    text-decoration: line-through;
+}
